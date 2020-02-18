@@ -9,7 +9,7 @@ function About(){
         <div className="textline" >Welcome to famous video game consoles of all time webpage! Here you
             can look forward to learning about famous consoles from different companies and learn a lot
             more about them!!</div>
-        <img className="rightPic" src="../img/Nintendo/snes/snesController.jpg" alt="Busted" />    
+        <img className="rightPic" src="img/Nintendo/snes/snesController.jpg" alt="Busted" />    
         </div>
     )
 }
