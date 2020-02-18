@@ -1,0 +1,205 @@
+div.paraContainer{
+  height: 0px;
+  width: 1900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+}
+
+#Header{
+  height: 130px;
+  width: 1900px;
+  margin-top:-35px;
+  position: fixed;
+  background-color: #4f43ae;
+  font-family: Kanit, Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  text-align: center;
+  font-weight: 900 bolder;
+  font-style: italic;
+  z-index: 1090;
+}
+
+.aboutSite{
+  position: relative;
+  top: 95px;
+  font-family: Gayathri,sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  height: 450px;
+  margin-bottom: 95px;
+}
+
+/* This is for text within the about site div*/
+
+.textline{
+  display: inline-block;
+  color: black;
+  text-align: justify;
+  width: 570px;
+  position: relative;
+  top: 20px;
+  left: 630px;
+}
+
+.leftPic{
+  float: left;
+  margin-right: -450px;
+}
+
+.rightPic{
+  float: right;
+  margin-right:20px;
+}
+
+.behind{
+  z-index: 1;
+}
+
+.centerPic{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#nintendoPos{
+  height: 512px;
+  position: relative;
+  top: 0px;
+}
+
+#xboxPos{
+  height: 512px;
+  position: relative;
+  top: 40px;
+}
+
+#sonyPos{
+  height: 512px;
+}
+
+#segaPos{
+  height: 512px;
+}
+
+.consoleContainer{
+
+  width: 1900px;
+  height: 750px;
+  background-color: #DC3545;
+}
+
+.consoleContainer2{
+
+  width: 1900px;
+  height: 750px;
+  background-color: dimgrey;
+}
+
+.consoleContainer3{
+
+  width: 1900px;
+  height: 750px;
+  background-color: #28A745;
+}
+
+.consoleContainer4{
+
+  width: 1900px;
+  height: 750px;
+  background-color: #007BFF;
+}
+
+.displayConsolesony{
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  margin-top: 80px;
+  margin-right: 80px;
+}
+
+.displayConsolenintendo{
+  display: inline-block;
+  width: 300px;
+  height: 196px;
+  margin-top: 10px;
+  margin-right: 80px;
+}
+
+.displayConsolexbox{
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  position: relative;
+  left: 400px;
+  margin-top: 10px;
+  margin-right: 130px;
+}
+
+.displayConsolesega{
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  position: relative;
+  left: 400px;
+  margin-top: 50px;
+  margin-right: 130px;
+}
+
+.consoleRow1{
+  width: 1900px;
+  height: 462px;
+  background-color: white;
+  position: relative;
+  top: 50px;
+}
+
+.descriptionText{
+  font-family: 'Robot Mono', Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-align: justify;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.superTest2{
+  width: 490px;
+  height: 160px;
+  color: brown;
+}
+
+img.consoleDesc{
+  float: right;
+  position: relative;
+  margin-left: 1%;
+}
+
+.consoleTitle{
+  font-size: 30px;
+}
+
+.consoleInfoboxes{
+  width: 1900px;
+  color: black;
+  font-size: xx-large;
+  position: relative;
+  font-family: 'Robot Mono', Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-align: justify;
+}
+
+div.hiding1{
+  transition-property: all;
+  display: none;
+  transition-duration: 30s;
+}
+
+div.hiding2{
+  display: block;
+  transition-duration: 35s;
+}
+
+button.bottom{
+  margin-bottom: 1px;
+  border-radius: 25px;
+}
