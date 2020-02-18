@@ -1,1 +1,1 @@
-This is the wepage for the consoles app
+This is the webpage for the consoles Desktop Website. 
