@@ -78,25 +78,25 @@ function DisplayBox(){
                 <Carousel.Item  >
                     <img className="d-block w-75 centerPic"
                         id="sonyPos"
-                        src="../img/sonyLogo.png"
+                        src="img/sonyLogo.png"
                         alt="First Slide"  />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img className="d-block w-75  centerPic"
                         id="nintendoPos"
-                        src="../img/Nintendo/nintendoLogo.png"
+                        src="img/Nintendo/nintendoLogo.png"
                         alt="Second Slide" />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img className="d-block w-auto centerPic"
                         id="xboxPos"
-                        src="../img/Microsoft/microsoftLogo3.png"
+                        src="img/Microsoft/microsoftLogo3.png"
                         alt="First Slide" />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img className="d-block  centerPic"
                         id="segaPos"
-                        src="../img/SEGA/Sega-Logo.png"
+                        src="img/SEGA/Sega-Logo.png"
                         alt="First Slide" />     
                 </Carousel.Item>
              </Carousel>
