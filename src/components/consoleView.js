@@ -88,19 +88,19 @@ function DisplayBox(){
                         alt="Second Slide" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img className="d-block w-auto centerPic"
+                    <img className="d-block w-auto centerPic img-fluid"
                         id="xboxPos"
                         src="img/Microsoft/microsoftLogo3.png"
                         alt="First Slide" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img className="d-block  centerPic"
+                    <img className="d-block  centerPic img-fluid"
                         id="segaPos"
-                        src="img/SEGA/Sega-Logo.png"
+                        src="img/SEGA/Sega-logo.png"
                         alt="First Slide" />     
                 </Carousel.Item>
              </Carousel>
-            <div className="consoleRow1" >
+            <div className="consoleRow1 img-fluid" >
                 {CONSOLES[index]}
             </div>
             <Info pass={index}/>
