@@ -7,7 +7,7 @@ import {sonyConsoles, nintendoConsoles, microsoftConsoles, segaConsoles} from '.
 
 
 function Info(current) {
-    
+    // to store what consoles to display based on user selection
     let show;
     let display;
    
@@ -230,18 +230,25 @@ function Info(current) {
         case 1:
         show=<> <Button className="bottom"  variant= "danger" size="lg"block onClick={toggleNes} > <span className="consoleTitle"> Original NES </span> </Button>
         {display = <div className={nes} > <img src= {nintendoConsoles[0].src} className="consoleDesc" alt="busted" />   <span  >{nintendoConsoles[0].desc}</span>   </div>}
+
         <Button className="bottom"  variant= "danger" size="lg"block onClick={toggleSnes} > <span className="consoleTitle">  SNES </span> </Button>
         {display = <div className={snes} > <img src={nintendoConsoles[1].src} className="consoleDesc" alt="busted" />   <span  >{nintendoConsoles[1].desc}</span>   </div>}
+        
         <Button className="bottom"  variant= "danger" size="lg"block onClick={toggleGameboy} > <span className="consoleTitle "> Original Gameboy </span> </Button>
         {display = <div className={gameboy} > <img src= {nintendoConsoles[2].src} className="consoleDesc" alt="busted" />   <span  >{nintendoConsoles[2].desc}</span>   </div>}
+        
         <Button className="bottom"  variant= "danger" size="lg"block onClick={toggleN64} > <span className="consoleTitle">  Nintendo 64 </span> </Button>
         {display = <div className={n64} > <img src= {nintendoConsoles[3].src} className="consoleDesc" alt="busted" />   <span  >{nintendoConsoles[3].desc}</span>   </div>}
+        
         <Button className="bottom"  variant= "danger" size="lg"block onClick={toggleGamecube} > <span className="consoleTitle"> Nintendo Gamecube </span> </Button>
         {display = <div className={gamecube} > <img src= {nintendoConsoles[4].src} className="consoleDesc" alt="busted" />   <span  >{nintendoConsoles[4].desc}</span>   </div>}
+        
         <Button className="bottom"  variant= "danger" size="lg"block onClick={toggleWii} > <span className="consoleTitle"> Nintendo Wii </span> </Button>
         {display = <div className={wii} > <img src= {nintendoConsoles[5].src} className="consoleDesc" alt="busted" />   <span  >{nintendoConsoles[5].desc}</span>   </div>}
+       
         <Button className="bottom"  variant= "danger" size="lg"block onClick={toggleDs} > <span className="consoleTitle"> Nintendo Ds </span> </Button>
         {display = <div className={ds} > <img src= {nintendoConsoles[6].src} className="consoleDesc" alt="busted" />   <span  >{nintendoConsoles[6].desc}</span>   </div>}
+       
         <Button className="bottom"  variant= "danger" size="lg"block onClick={toggleSwitch} > <span className="consoleTitle"> Nintendo Switch </span> </Button>
         {display = <div className={ninswitch} > <img src= {nintendoConsoles[7].src} className="consoleDesc" alt="busted" />   <span  >{nintendoConsoles[7].desc}</span>   </div>}
         </>
@@ -251,8 +258,10 @@ function Info(current) {
         case 2:
         show=<> <Button className="bottom"  variant= "success" size="lg"block onClick={toggleXbox} > <span className="consoleTitle">  Original Xbox </span> </Button>
         {display = <div className={ogXbox} > <img src= {microsoftConsoles[0].src} className="consoleDesc" alt="busted" />   <span className="descriptionText" >{microsoftConsoles[0].desc}</span>   </div>}
+        
         <Button className="bottom"  variant= "success" size="lg"block onClick={toggle360} > <span className="consoleTitle"> Xbox 360 </span> </Button>
         {display = <div className={xbox360} > <img src={microsoftConsoles[1].src} className="consoleDesc" alt="busted" />   <span className="descriptionText" >{microsoftConsoles[1].desc}</span>   </div>}
+        
         <Button className="bottom"  variant= "success" size="lg"block onClick={toggleXbone} > <span className="consoleTitle"> XboxOne </span> </Button>
         {display = <div className={xboxone} > <img src= {microsoftConsoles[2].src} className="consoleDesc" alt="busted" />   <span className="descriptionText" >{microsoftConsoles[2].desc}</span>   </div>}
         </>
@@ -262,10 +271,13 @@ function Info(current) {
         case 3:
         show=<> <Button className="bottom"  variant= "primary" size="lg"block onClick={toggleGenesis} > <span className="consoleTitle"> Sega Genesis </span> </Button>
         {display = <div className={genesis} > <img src= {segaConsoles[0].src} className="consoleDesc" alt="busted" />   <span className="descriptionText" >{segaConsoles[0].desc}</span>   </div>}
+        
         <Button className="bottom"  variant= "primary" size="lg"block onClick={toggleSaturn} > <span className="consoleTitle"> Sega Saturn </span> </Button>
         {display = <div className={saturn} > <img src={segaConsoles[1].src} className="consoleDesc" alt="busted" />   <span className="descriptionText" >{segaConsoles[1].desc}</span>   </div>}
+        
         <Button className="bottom"  variant= "primary" size="lg"block onClick={toggleGamegear} > <span className="consoleTitle"> Sega GameGear </span> </Button>
         {display = <div className={gamegear} > <img src= {segaConsoles[2].src} className="consoleDesc" alt="busted" />   <span className="descriptionText" >{segaConsoles[2].desc}</span>   </div>}
+        
         <Button className="bottom"  variant= "primary" size="lg"block onClick={toggleDreamcast} > <span className="consoleTitle"> Sega Dreamcast </span> </Button>
         {display = <div className={dreamcast} > <img src= {segaConsoles[3].src} className="consoleDesc" alt="busted" />   <span className="descriptionText" >{segaConsoles[3].desc}</span>   </div>}
         </>
@@ -279,7 +291,7 @@ function Info(current) {
     return(
       
     
-     <div className="consoleInfoboxes" > {show} </div> 
+     <div className="consoleInfoboxes img-fluid" > {show} </div> 
     );
 }
 
