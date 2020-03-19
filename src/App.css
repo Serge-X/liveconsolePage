@@ -1,6 +1,6 @@
 div.paraContainer{
-  height: 0px;
-  width: 1900px;
+  /* height: 100%; */
+  /* max-width: 100%; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,8 +8,10 @@ div.paraContainer{
 }
 
 #Header{
-  height: 130px;
-  width: 1900px;
+  /* height: 130px; */
+  height: auto;
+  /* width: 1900px; */
+  width: 100%;
   margin-top:-35px;
   position: fixed;
   background-color: #4f43ae;
@@ -23,11 +25,14 @@ div.paraContainer{
 
 .aboutSite{
   position: relative;
+  width: 100%;
   top: 95px;
   font-family: Gayathri,sans-serif;
   font-weight: 400;
   font-size: 40px;
+  /* max-width: 100%; */
   height: 450px;
+  /* height: auto; */
   margin-bottom: 95px;
 }
 
@@ -37,19 +42,24 @@ div.paraContainer{
   display: inline-block;
   color: black;
   text-align: justify;
-  width: 570px;
+  /* width: 570px; */
+  width: 30%;
   position: relative;
-  top: 20px;
-  left: 630px;
+  top: 30px;
+  /* left: 630px; */
+  left: 200px;
 }
 
 .leftPic{
   float: left;
-  margin-right: -450px;
+  /* margin-right: -450px; */
+  margin-left: 10px;
 }
 
 .rightPic{
   float: right;
+  /* width: 350px; */
+  /* max-width: 50%; */
   margin-right:20px;
 }
 
@@ -84,28 +94,32 @@ div.paraContainer{
 
 .consoleContainer{
 
-  width: 1900px;
+  /* width: 1900px; */
+  width: 100%;
   height: 750px;
   background-color: #DC3545;
 }
 
 .consoleContainer2{
 
-  width: 1900px;
+  /* width: 1900px; */
+  width: 100%;
   height: 750px;
   background-color: dimgrey;
 }
 
 .consoleContainer3{
 
-  width: 1900px;
+  /* width: 1900px; */
+  width: 100%;
   height: 750px;
   background-color: #28A745;
 }
 
 .consoleContainer4{
 
-  width: 1900px;
+  /* width: 1900px; */
+  width: 100%;
   height: 750px;
   background-color: #007BFF;
 }
@@ -179,7 +193,9 @@ img.consoleDesc{
 }
 
 .consoleInfoboxes{
-  width: 1900px;
+  /* width: 1900px; */
+  width: 100%;
+  margin-top: 70px;
   color: black;
   font-size: xx-large;
   position: relative;
@@ -202,4 +218,45 @@ div.hiding2{
 button.bottom{
   margin-bottom: 1px;
   border-radius: 25px;
+  width: 100%;
+}
+
+@media screen and (max-width:1280px){
+    
+    .aboutSite{
+      height: auto;
+      top: 80px;
+    }
+
+    .textline{
+      position: relative;
+      left: 90px;
+      width: 35%;
+    }
+
+    .leftPic{
+      position: relative;
+      top: 35px;
+      width: 25%;
+    }
+    .rightPic{
+      position: relative;
+      top: 35px;
+      /* z-index: -3; */
+      margin-right: -10px;
+      width: 25%;
+    }
+}
+
+@media screen and (max-width:1694px){
+
+    .rightPic{
+      margin-right: -20px;
+    }
+
+    .aboutSite{
+      height: 500px;
+    }
+
+
 }
