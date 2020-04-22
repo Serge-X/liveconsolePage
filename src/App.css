@@ -247,8 +247,54 @@ button.bottom{
       width: 25%;
     }
 }
+@media screen and (max-width:1625px){
+    
+    .aboutSite{
+      height: auto;
+      top: 80px;
+    }
 
-@media screen and (max-width:1694px){
+    .textline{
+      position: relative;
+      left: 90px;
+      width: 35%;
+    }
+
+    .leftPic{
+      position: relative;
+      top: 35px;
+      width: 25%;
+    }
+    .rightPic{
+      position: relative;
+      top: 35px;
+      /* z-index: -3; */
+      margin-right: -10px;
+      width: 25%;
+    }
+
+    .displayConsolexbox{
+      display: inline-block;
+      width: 300px;
+      height: 200px;
+      position: relative;
+      left: 100px;
+      margin-top: 10px;
+      margin-right: 130px;
+    }
+
+    .displayConsolesega{
+      display: inline-block;
+      width: 300px;
+      height: 200px;
+      position: relative;
+      left: 100px;
+      margin-top: 50px;
+      margin-right: 130px;
+    }
+}
+
+/* @media screen and (max-width:1694px){
 
     .rightPic{
       margin-right: -20px;
@@ -259,4 +305,4 @@ button.bottom{
     }
 
 
-}
+} */
