@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/liveconsolePage/static/css/main.6f48b3fc.chunk.css",
+    "main.css": "/liveconsolePage/static/css/main.96b0971d.chunk.css",
     "main.js": "/liveconsolePage/static/js/main.e97af028.chunk.js",
     "main.js.map": "/liveconsolePage/static/js/main.e97af028.chunk.js.map",
     "runtime-main.js": "/liveconsolePage/static/js/runtime-main.ef524b29.js",
@@ -9,17 +9,17 @@
     "static/js/2.4a66faa6.chunk.js": "/liveconsolePage/static/js/2.4a66faa6.chunk.js",
     "static/js/2.4a66faa6.chunk.js.map": "/liveconsolePage/static/js/2.4a66faa6.chunk.js.map",
     "index.html": "/liveconsolePage/index.html",
-    "precache-manifest.95a9a581ccf034ca2dc73a0dc8de06ac.js": "/liveconsolePage/precache-manifest.95a9a581ccf034ca2dc73a0dc8de06ac.js",
+    "precache-manifest.ff65b48fbfa355d4b8dc5692fd367815.js": "/liveconsolePage/precache-manifest.ff65b48fbfa355d4b8dc5692fd367815.js",
     "service-worker.js": "/liveconsolePage/service-worker.js",
     "static/css/2.67123b20.chunk.css.map": "/liveconsolePage/static/css/2.67123b20.chunk.css.map",
-    "static/css/main.6f48b3fc.chunk.css.map": "/liveconsolePage/static/css/main.6f48b3fc.chunk.css.map",
+    "static/css/main.96b0971d.chunk.css.map": "/liveconsolePage/static/css/main.96b0971d.chunk.css.map",
     "static/js/2.4a66faa6.chunk.js.LICENSE": "/liveconsolePage/static/js/2.4a66faa6.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.ef524b29.js",
     "static/css/2.67123b20.chunk.css",
     "static/js/2.4a66faa6.chunk.js",
-    "static/css/main.6f48b3fc.chunk.css",
+    "static/css/main.96b0971d.chunk.css",
     "static/js/main.e97af028.chunk.js"
   ]
 }
