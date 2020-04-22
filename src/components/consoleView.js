@@ -96,7 +96,7 @@ function DisplayBox(){
                 <Carousel.Item>
                     <img className="d-block  centerPic img-fluid"
                         id="segaPos"
-                        src="img/SEGA/Sega-logo.png"
+                        src="img/SEGA/Sega-Logo.png"
                         alt="First Slide" />     
                 </Carousel.Item>
              </Carousel>
