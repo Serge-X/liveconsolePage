@@ -273,6 +273,23 @@ button.bottom{
       width: 25%;
     }
 
+    /* .displayConsolenintendo{
+      display: inline-block;
+      width: 300px;
+      height: 196px;
+      margin-top: 10px;
+      margin-right: 20px;
+    } */
+
+    .consoleRow1{
+      width: 1900px;
+      /* height: 462px; */
+      height: 600px;
+      background-color: white;
+      position: relative;
+      top: 50px;
+    }
+
     .displayConsolexbox{
       display: inline-block;
       width: 300px;
@@ -292,6 +309,7 @@ button.bottom{
       margin-top: 50px;
       margin-right: 130px;
     }
+    
 }
 
 /* @media screen and (max-width:1694px){
